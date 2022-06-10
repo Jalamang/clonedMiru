@@ -6,9 +6,9 @@ const Footer = () => {
   return (
     <footer className="bg-dark text-white pb-4">
       <div className="container text-center text-md-left">
-        <div className="row text-center text-mm-left">
+        <div className="row text-center text-md-left">
 
-          <div className="col-md-1 col-lg-3 col-xl-3 mx-auto mt-3">
+          <div className="col-md-1 col-lg-3 mx-auto mt-3">
             <div className="text-uppercase  font-weight-bold text-warning">
               Miru
             </div>
@@ -78,7 +78,7 @@ const Footer = () => {
 
           <div className="row align-items-center">
             
-            <div className="bg-dark col-md-7 col-lg-8">
+            <div className="bg-dark col-md-7 col-lg-3">
               <p>
                 Copyright©2022 All rights reserved by:{" "}
                 <a href="/" style={{ textDecoration: "none" }}>

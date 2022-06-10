@@ -70,7 +70,7 @@ function NewPost() {
         const value = event.target.value;
         const valueLength = value.length;
 
-        const maxChars = parseInt(event.target.getAttribute("data-max-chars"));
+        const maxChars = parseInt(event.target.getAttribute("maxLength"));
         let remainingChars = maxChars - valueLength;
 
         if (valueLength > maxChars) {
